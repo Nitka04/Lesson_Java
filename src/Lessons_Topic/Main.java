@@ -2,7 +2,7 @@ package Lessons_Topic;
 
 public class Main {
     public static void main(String[] args) {
-        /* byte a =100;
+        /*byte a =100;
         a = (byte) (a*2);
         System.out.println(a); */
 

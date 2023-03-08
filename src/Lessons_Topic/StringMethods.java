@@ -18,7 +18,7 @@ public class StringMethods {
         int c= 33;
         System.out.println (a+","+b+","+c+"."); */
 
-        // все методі клаSystem.out.println класса стринг не изменяют строку, а возвращают ссілку на новій обїет
+        // все методі классса System.out.println класса стринг не изменяют строку, а возвращают ссілку на новій обїет
         //  concat  производит слияние строк
         String string="I love testing very much";
         String string2=string.concat(" today");
@@ -86,6 +86,7 @@ String testing =string.split(" ")[2];
         System.out.println("index1="+index1);
         System.out.println("Строка\" "+String_2+ "содержит в себе символ "+ch+"и єто "+result_2+
                 " символ 'е' находиться в строке под номером "+index1);
+
 
     }
 }
