@@ -74,7 +74,6 @@ public class formatter {
         //     На консоль вывелось сообщения в виде:
         //     "Мое имя Сергей. Мой возраст 31. Но чувствую я себя на все 100."
 
-
 String Str5="Мое имя {name}. Мой возраст {age}.Но чувствую я себя на все {newAge}.";
 String Str6=Str5.replace("{name}","%1$s").replace("{age}","%2$d")
         .replace("{newAge}","%3$d");
