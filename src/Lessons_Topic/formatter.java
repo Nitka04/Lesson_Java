@@ -59,7 +59,7 @@ public class formatter {
         //Y - полный год, y - две финальные цифры года.
         //System.out.printf("Выведем дату в одном формате %1$tA %1$tB %1$tY\n", date);
         //System.out.printf("Выведем дату в другом формате %1$td:%1$tm:%1$ty\n", date);
-        //System.out.printf("Выведем дату в третьем формате %1$tA %1$td %1$tB\n", date);
+        //System.out.printf("Выведем дату в третьем формате   %1$tB\n", date);
         String date2 = String.format("%1$tA %1$td %1$tB", date);
         System.out.println(date2);
 
