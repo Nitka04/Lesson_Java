@@ -17,17 +17,29 @@ import java.util.Scanner;
 public class exercise5 {
     public static void main(String[] args) {
         System.out.println("Введіть розмір основанія трикутника:");
-        Scanner o=new Scanner(System.in);
-        int osn=o.nextInt();
-        String[] osnov=new String[osn];
-        /*osnov[0]= "*";
-        osnov[1]= "*";
-        osnov[2]= "*";
-        osnov[3]= "*";*/
-        for (int i=0;i<= osnov.length-1;i++){
-            osnov[i]= "*";
+        Scanner o = new Scanner(System.in);
+        int osn = o.nextInt();
+//полий трикутник
+        /*for (int i = osn; i > 0; i--) {
+            for (int j=0; j<i; j++) {
+                if (j==0||j==i-1||i==osn) {
+                    System.out.print("*");
+                }else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println("");
+        }*/
+        // заповнений  зірочками трикутник
+        for (int i = osn; i > 0; i--) {
+            for (int j=0; j<i; j++) {
+                if (j==0||j==i-1||i==osn) {
+                    System.out.print("*");
+                }else {
+                    System.out.print("*");
+                }
+            }
+            System.out.println("");
         }
-        for (int j=0;j<= osnov.length;j++){
-        System.out.println(osnov[j]+"");}
     }
 }
