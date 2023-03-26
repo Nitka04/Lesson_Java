@@ -1,4 +1,4 @@
-package Homerworks.Homerwork17;
+package Homerworks.Homerworks17;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Homerworks.Homerwork17;
+package Homerworks.Homerworks17;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class exercise2 {
         int count=0;
         for (int i = 0; i < array.length; i++){
              if(array[i]==s){
-                      count++;  /*  */
+                      count++;
              break;}
                  /*System.out.println("Не знайдено збігу числа в масиві.");*/
              }

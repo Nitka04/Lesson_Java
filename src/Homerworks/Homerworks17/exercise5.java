@@ -1,4 +1,4 @@
-package Homerworks.Homerwork17;
+package Homerworks.Homerworks17;
 
 import java.util.Scanner;
 
@@ -28,6 +28,6 @@ public class exercise5 {
             osnov[i]= "*";
         }
         for (int j=0;j<= osnov.length;j++){
-        System.out.println(osnov[j]+" ");}
+        System.out.println(osnov[j]+"");}
     }
 }
