@@ -1,4 +1,4 @@
-package Lessons_Topic.OOP.lesson9;
+package Lessons_Topic.OOP.lesson9.nasled;
 
 public class Messenger {
     public String name;
@@ -38,7 +38,9 @@ public class Messenger {
     public int getSpace() {
         return space;
     }
-
+    // по умолчанию в родительском классе создается пустой конструктор.
+    //после создания конструкторабпустой удаляеться и в класе наследовании возникнет  проблема
+    //нужно или создать пустой  конструктор или в классе наследования создать конструктор наследовательній.
     public Messenger (String name,double version, int space){
         this.name=name;
         this.version=version;

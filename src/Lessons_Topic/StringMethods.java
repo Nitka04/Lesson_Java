@@ -18,7 +18,7 @@ public class StringMethods {
         int c= 33;
         System.out.println (a+","+b+","+c+"."); */
 
-        // все методі классса System.out.println класса стринг не изменяют строку, а возвращают ссілку на новій обїет
+        // все методі классса System.out.println класса стринг не изменяют строку, а возвращают ссілку на новій обїект
         //  concat  производит слияние строк
         String string="I love testing very much";
         String string2=string.concat(" today");
