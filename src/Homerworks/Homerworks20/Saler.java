@@ -4,6 +4,12 @@ public class Saler extends roles {
     private String name;
     private boolean honest;
 
+
+    String roles() {
+        String role="Продавец";
+        return role;
+        /* System.out.println("Я Продавец");*/
+    }
     public String getName() {
         return name;
     }
@@ -25,12 +31,7 @@ public class Saler extends roles {
         this.honest = honest;
     }
 
-    @Override
-    String role() {
-        String role="Продавец";
-        return role;
-       /* System.out.println("Я Продавец");*/
-    }
+
 
     }
 

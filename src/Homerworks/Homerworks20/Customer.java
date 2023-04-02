@@ -1,6 +1,6 @@
 package Homerworks.Homerworks20;
 
-public class Customer extends roles {
+public class Customer extends roles{
     private String name;
     private int age;
     private boolean discount;
@@ -35,10 +35,9 @@ public class Customer extends roles {
         this.discount = discount;
     }
 
-    @Override
-    String role() {
-        String role="Покупець";
+    String roles() {
+        String roles="Покупець";
        /* System.out.println("Я Покупатель");*/
-        return role;
+        return roles;
     }
 }

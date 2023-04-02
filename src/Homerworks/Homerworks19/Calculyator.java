@@ -61,6 +61,14 @@ public class Calculyator {
         vvod=vvod.toUpperCase();
         int i=-1;
         Integer ind=vvod.indexOf("+");
+        /*
+        do ...
+        if (vvod.contains("+")){
+            double first=Double.parseDouble(vvod.split("\\+")[0]);
+            double first=Double.parseDouble(vvod.split("\\+")[0]);
+           }
+           while (!vvod.equalsIgnoreCase("stop"));
+         */
             if(vvod.indexOf("+")!=i){
                 String rasdel=vvod.replace("+", " ");
                 String[] r=rasdel.split(" ");

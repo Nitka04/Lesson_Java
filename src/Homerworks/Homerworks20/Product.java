@@ -33,6 +33,4 @@ public class Product {
         this.price = price;
         this.alcohol = alcohol;
     }
-
-
 }
