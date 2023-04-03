@@ -30,8 +30,8 @@ public class StringMethods {
         String string22="";
         char ch =string.charAt(4);
         System.out.println("сharAt="+ch);
-        // contains- возвращает истину если в строке хотябі
-        // раз встречается указанная строка
+
+        // contains- возвращает истину если в строке хотябі раз встречается указанная строка
         boolean result8=string.contains("love");
         System.out.println("contains="+result8);
         // length - возвращает количесство символов строки
