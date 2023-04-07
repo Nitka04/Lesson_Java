@@ -1,4 +1,4 @@
-package Lessons_Topic.OOP.lesson10.Ex23;
+package Lessons_Topic.OOP.lesson10.ExceptExsample;
 
 public class Main {
     public static void main (String[] args)/*throws NofriendsException*/{//прописати исключенія в назві метода,але буде помилка якщо це виключення спрацює.

@@ -1,4 +1,4 @@
-package Lessons_Topic.OOP.lesson10.Ex23;
+package Lessons_Topic.OOP.lesson10.ExceptExsample;
 
 public class LowSalaryException extends Exception {
     public String getMessage(){

@@ -6,6 +6,8 @@ public class ex1 {
        // System.out.println(count[12]); це помилка яку не зможе виконанти програма
         try {
             System.out.println(count[12]);
+            //дальше код не будет віполняться если в try поймайл исключение,он переходит в блок cach;
+            System.out.println("виключень немає");
         } catch (ArrayIndexOutOfBoundsException name){
             System.out.println(name.getMessage());
         } finally {
