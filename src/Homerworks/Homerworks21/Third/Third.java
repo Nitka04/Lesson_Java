@@ -32,16 +32,19 @@ public class Third {
     }
 
     public static double DivisionArrayElem () throws ZeroExc, LengthOfArray {
+        int[] rand=Third.randomArray30();
+        System.out.println(Arrays.toString(rand));
+        System.out.println(rand.length);
         Scanner ch=new Scanner(System.in);
         System.out.println("Введіть число");
         int delit= ch.nextInt();
-        if (Third.randomArray30()[0]==0) {
+        if (rand[0]==0) {
             throw new ZeroExc();
         }
-        if (randomArray30().length-1<delit){
+        if (rand.length-1<delit){
             throw new LengthOfArray();
         }
-        double div=randomArray30()[delit]/randomArray30()[0];
+        double div=rand[delit]/rand[0];
         return div;
       /* int firsEl =randomArray30()[0]; // виклик єлементу рандомного массиву через його метод.
         int delit = randomArray30()[d];*/
