@@ -24,12 +24,12 @@ public class Arrays_methods {
         //toString() - приводим массив к строковому типу и можем отобразить его содержимое
 
         //fill() заполняет массив указанным элементом
-        /*int[] ints3 = new int[4];
+      /*  int[] ints3 = new int[4];
         Arrays.fill(ints3, 12);
         System.out.println(Arrays.toString(ints3));*/
         //также можно указать диапазон идексов, внутри которых будет назаначение
         //элементам массива какзанного значения.
-        /*int[] ints4 = new int[4];
+       /* int[] ints4 = new int[4];
         Arrays.fill(ints4, 2, 3, 12);
         System.out.println(Arrays.toString(ints4));*/
 

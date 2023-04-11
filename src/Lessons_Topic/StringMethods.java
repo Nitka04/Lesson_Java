@@ -43,7 +43,7 @@ public class StringMethods {
         //starsWith- возвращает истину если указанній символ или строк
         // совпадают с началом строки
         //endsWith- аналогичтно,starsWith только наоборот
-        boolean result2=string.startsWith("I love");
+        boolean result2=string.startsWith("I love"); //
         boolean result3= string.endsWith("h");
         System.out.println(ch);
         System.out.println("startsWith="+ result2);
