@@ -32,13 +32,15 @@ public class Third {
     }
 
     public static double DivisionArrayElem () throws ZeroExc, LengthOfArray {
-        int[] rand=Third.randomArray30();
+       // int[] rand=Third.randomArray30();
+        int[] rand={0,33,4,7,44,97,2,6,7,66};
         System.out.println(Arrays.toString(rand));
         System.out.println(rand.length);
         Scanner ch=new Scanner(System.in);
         System.out.println("Введіть число");
         int delit= ch.nextInt();
         if (rand[0]==0) {
+            System.out.println("Hello");
             throw new ZeroExc();
         }
         if (rand.length-1<delit){

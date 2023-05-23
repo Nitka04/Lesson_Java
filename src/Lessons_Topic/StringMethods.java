@@ -59,7 +59,7 @@ public class StringMethods {
         //  lastIndexOf ищет с конца
         int index=string.indexOf('w');
         System.out.println("indexOf="+index);
-        //substring - вірезает указанній промежуток символов
+        //substring - вірезает те що за межами діапазуну вказаноого,тобто залишає те що поміж значень
         // возвращает новую строку
         String string31 =string.substring(7,20);
         System.out.println("substring="+string31);
